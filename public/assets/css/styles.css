@@ -447,6 +447,8 @@ nav #hamburger > span:not(:last-child) {
   margin: 10px 0px 0px;
 }
 
+.lost-404 main a {text-decoration: underline;}
+
 @media (max-width: 800px) {
   .lost-404 main h1 {
     font-size: 30px;
