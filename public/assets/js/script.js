@@ -61,9 +61,20 @@ var swiper = new Swiper(".mySwiper", {
 
 //card slides
 var swiper = new Swiper(".cardSwipper", {
-  effect: "cards",
-  grabCursor: true,
-  loop: true,
+  effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
 });
 
 //vertical slides in cards
@@ -76,6 +87,10 @@ var swiper2 = new Swiper(".mySwiper2", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 var swiper3 = new Swiper(".mySwiper3", {
@@ -87,6 +102,10 @@ var swiper3 = new Swiper(".mySwiper3", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 var swiper4 = new Swiper(".mySwiper4", {
@@ -98,6 +117,10 @@ var swiper4 = new Swiper(".mySwiper4", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 var swiper5 = new Swiper(".mySwiper5", {
@@ -109,6 +132,10 @@ var swiper5 = new Swiper(".mySwiper5", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 var swiper6 = new Swiper(".mySwiper6", {
@@ -120,6 +147,10 @@ var swiper6 = new Swiper(".mySwiper6", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 var swiper7 = new Swiper(".mySwiper7", {
@@ -131,6 +162,10 @@ var swiper7 = new Swiper(".mySwiper7", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 var swiper8 = new Swiper(".mySwiper8", {
@@ -142,6 +177,10 @@ var swiper8 = new Swiper(".mySwiper8", {
     clickable: true,
     dynamicBullets: true,
   },
+    autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
 
 const year = new Date().getFullYear();
