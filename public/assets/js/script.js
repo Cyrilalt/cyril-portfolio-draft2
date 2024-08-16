@@ -77,7 +77,7 @@ var swiper2 = new Swiper(".mySwiper2", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
@@ -92,7 +92,7 @@ var swiper3 = new Swiper(".mySwiper3", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
@@ -107,7 +107,7 @@ var swiper4 = new Swiper(".mySwiper4", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
@@ -122,7 +122,7 @@ var swiper5 = new Swiper(".mySwiper5", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
@@ -137,7 +137,7 @@ var swiper6 = new Swiper(".mySwiper6", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
@@ -152,7 +152,7 @@ var swiper7 = new Swiper(".mySwiper7", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
@@ -167,7 +167,7 @@ var swiper8 = new Swiper(".mySwiper8", {
     dynamicBullets: true,
   },
     autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   }
 });
