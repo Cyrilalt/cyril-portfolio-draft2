@@ -16,6 +16,11 @@ app.get('/lost', (req, res)=> {
     res.sendFile(__dirname + '/404.html');
 });
 
+//cron job endpoint
+app.get('/healthz', (req, res) => {
+  res.status(200).send('OK');
+});
+
 app.get('*', (req, res)=> {
     res.redirect('/lost');
 });
